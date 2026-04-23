@@ -58,9 +58,9 @@ class userAccount:
     def __init__(self, name, email):
         self.name = name
         self.email = email
-        self.password = hash_password("default")  # Assigned a hashed default password on creation
-        self.membership_plan = "basic"             # All new members start on the basic plan
-        self.checkin_count = 0                     # Tracks how many times the member has checked in
+        self.password = hash_password("default")
+        self.membership_plan = "basic"
+        self.checkin_count = 0
 
     # Updates the member's contact email
     def update_email(self, new_email):
