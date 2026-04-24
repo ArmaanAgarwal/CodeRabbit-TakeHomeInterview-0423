@@ -1,0 +1,7 @@
+[lint]
+select = ["ALL"]
+ignore = [
+    "F841",  # unused variable
+    "N801",  # class naming convention
+    "E711",  # None comparison style
+]
